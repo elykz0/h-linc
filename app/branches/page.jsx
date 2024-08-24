@@ -156,8 +156,8 @@ const Branches = () => {
                    />
                 Portola
                 </SheetTrigger>
-                <SheetContent className="w-full pt-20">
-                  <SheetTitle className="text-center text-2xl pb-10">Portola HS</SheetTitle>
+                <SheetContent className="w-full pt-10">
+                  <SheetTitle className="text-center text-2xl pb-5">Portola HS</SheetTitle>
                     <div className="object-cover">
                     <Image 
                       src="/assets/Portola.png"
@@ -166,8 +166,10 @@ const Branches = () => {
                       height={100}
                       />
                     </div>
-                  <SheetDescription className="flex flex-col justify-center items-center gap-8 pt-10">
-                      Hello
+                  <SheetDescription className="flex flex-col justify-center items-center gap-1 pt-5">
+                      <span>Description</span>  <hr/>
+                      <p className="pb-1">Portola High School, a premier educational institution in Irvine, CA, proudly serves as a cornerstone of academic excellence within the community. As an integral part of the Irvine Unified School District, we work collaboratively with our sister schools to foster a brighter future. At Portola High, we are supported by dedicated educators, driven peers, and a dynamic curriculum designed to inspire and elevate every student. We thrive not only as a team but as a unified family, committed to achieving greatness together.</p>
+                      <p className="font-semibold">“Education is the most powerful weapon which you can use to change the world.” - Nelson Mandela</p>
                   </SheetDescription>
                 </SheetContent>
                 </Sheet>
