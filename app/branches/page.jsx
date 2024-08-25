@@ -71,7 +71,7 @@ const Branches = () => {
                     <div className="object-cover">
                     <Image 
                       src="/assets/Qhss.png"
-                      alt="StuyPic"
+                      alt="QhssPic"
                       width={320}
                       height={100}
                       />
@@ -102,7 +102,7 @@ const Branches = () => {
                     <div className="object-cover">
                     <Image 
                       src="/assets/Blatin.png"
-                      alt="StuyPic"
+                      alt="BlatinPic"
                       width={320}
                       height={100}
                       />
@@ -133,7 +133,7 @@ const Branches = () => {
                     <div className="object-cover">
                     <Image 
                       src="/assets/benzieCentral.png"
-                      alt="StuyPic"
+                      alt="benzieCentralPic"
                       width={320}
                       height={100}
                       />
@@ -161,7 +161,7 @@ const Branches = () => {
                     <div className="object-cover">
                     <Image 
                       src="/assets/Portola.png"
-                      alt="StuyPic"
+                      alt="PortolaPic"
                       width={320}
                       height={100}
                       />
@@ -180,7 +180,7 @@ const Branches = () => {
                 <SheetTrigger>
                 <Image 
                   src="/assets/bronxScience.png"
-                  alt="HunterPic"
+                  alt="bronxSciencePic"
                   width={320}
                   height={100}
                    />
@@ -205,8 +205,94 @@ const Branches = () => {
                 </div>
             </div>
             <div className="pt-20 pb-20 text-center">
-                  More coming soon...
+                  Upcoming...
+            </div>
+            <div className="flex flex-col xl:items-left xl:flex-row items-center gap-20 pb-10 drop-shadow-2xl">
+              {/*Cardozo HS */}
+                <div className="box-border h-80 w-80 flex flex-col pb-10 bg-gray-200 hover:drop-shadow-2xl" data-aos="fade-up">
+                <Sheet>
+                <SheetTrigger>
+                <Image 
+                  src="/assets/cardozo.png"
+                  alt="cardozoPic"
+                  width={320}
+                  height={100}
+                   />
+                Benjamin N. Cardozo
+                </SheetTrigger>
+                <SheetContent className="w-full pt-20">
+                  <SheetTitle className="text-center text-2xl pb-10">Benjamin N. Cardozo High School </SheetTitle>
+                    <div className="object-cover">
+                    <Image 
+                      src="/assets/cardozo.png"
+                      alt="cardozoPic"
+                      width={320}
+                      height={100}
+                      />
+                    </div>
+                  <SheetDescription className="flex flex-col justify-center items-center gap-8 pt-10">
+                      Description
+                  </SheetDescription>
+                </SheetContent>
+                </Sheet>
                 </div>
+                {/*Bayside HS */}
+                <div className="box-border h-80 w-80 flex flex-col pb-10 bg-gray-200 hover:drop-shadow-2xl" data-aos="fade-up">
+                <Sheet>
+                <SheetTrigger>
+                <Image 
+                  src="/assets/bayside.png"
+                  alt="baysidePic"
+                  width={320}
+                  height={100}
+                   />
+                Bayside HS
+                </SheetTrigger>
+                <SheetContent className="w-full pt-10">
+                  <SheetTitle className="text-center text-2xl pb-5">Bayside High School</SheetTitle>
+                    <div className="object-cover">
+                    <Image 
+                      src="/assets/bayside.png"
+                      alt="baysidePic"
+                      width={320}
+                      height={100}
+                      />
+                    </div>
+                  <SheetDescription className="flex flex-col justify-center items-center gap-1 pt-5">
+                      <span>Description</span>  <hr/>
+                  </SheetDescription>
+                </SheetContent>
+                </Sheet>
+                </div>
+                {/*Yonkers HS */}
+                <div className="box-border h-80 w-80 flex flex-col pb-10 bg-gray-200 hover:drop-shadow-2xl" data-aos="fade-up">
+                <Sheet  >
+                <SheetTrigger>
+                <Image 
+                  src="/assets/yonkers.png"
+                  alt="yonkersPic"
+                  width={320}
+                  height={100}
+                   />
+                  Yonkers HS 
+                  </SheetTrigger>
+                  <SheetContent className="w-full pt-20">
+                  <SheetTitle className="text-center text-2xl pb-10">Yonkers Middle High School</SheetTitle>
+                    <div className="object-cover">
+                    <Image 
+                      src="/assets/yonkers.png"
+                      alt="yonkersPic"
+                      width={320}
+                      height={100}
+                      />
+                    </div>
+                  <SheetDescription className="flex flex-col justify-center items-center gap-1 pt-3">
+                      <span>Description</span> <hr/>
+                  </SheetDescription>
+                </SheetContent>
+                </Sheet>
+                </div>
+            </div>
           </div> 
       </div>
     </div>
