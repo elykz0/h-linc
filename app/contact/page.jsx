@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="text-center py-24">
               Have a Question?
       </div>
-      <div className=" text-9xl text-center justify-between hover:text-amber-800">
+      <div className=" text-7xl xl:text-9xl text-center justify-between hover:text-amber-800">
               <Link href='mailto:HLinc.org@gmail.com'>
                 CONTACT US
               </Link>
