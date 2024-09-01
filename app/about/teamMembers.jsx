@@ -46,7 +46,7 @@ const TeamMem = () => {
                 {/* Christian Wang*/}
                 <div className="box-border h-100 w-80 flex flex-col pb-10 bg-gray-200 hover:drop-shadow-2xl">
                 <Image 
-                  src="/assets/blackProfile.png"
+                  src="/assets/christian.png"
                   alt="Pic"
                   width={320}
                   height={100}

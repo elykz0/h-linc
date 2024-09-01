@@ -107,8 +107,9 @@ const Branches = () => {
                       height={100}
                       />
                     </div>
-                  <SheetDescription className="flex flex-col justify-center items-center gap-8 pt-10">
-                      Hello
+                  <SheetDescription className="flex flex-col justify-center items-center gap-1 pt-10">
+                  <span>Description</span>  <hr/>
+                  <p className="pb-1">Brooklyn Latin, the newest specialized school, specializes in language and research. By offering a classical liberal arts education, it allows their students to excel in the IB curriculum. Additionally, our branch specializes in STEM at The Brooklyn Latin School, allowing students to research alongside professors by utilizing both remote and in-person communication.</p>
                   </SheetDescription>
                 </SheetContent>
                 </Sheet>
@@ -139,7 +140,8 @@ const Branches = () => {
                       />
                     </div>
                   <SheetDescription className="flex flex-col justify-center items-center gap-8 pt-10">
-                      Hello
+                    <span>Description</span>  <hr/>
+                    <p className="pb-1">Benzie Central High School in Benzonia is known for its exceptional sports and research in STEM. Benzie Central is our newest branch and has already started numerous research papers and passion projects aided by our faculty.</p>
                   </SheetDescription>
                 </SheetContent>
                 </Sheet>
@@ -288,6 +290,7 @@ const Branches = () => {
                     </div>
                   <SheetDescription className="flex flex-col justify-center items-center gap-1 pt-3">
                       <span>Description</span> <hr/>
+                      <p className=" pb-1">Yonkers Middle High School, a magnet school, is known for its exceptional IB curriculum which helps students develop a strong foundation in science. Our branch in Yonkers strives to help students develop their own research and passion projects to understand the infinitely expanding world of science better.</p>
                   </SheetDescription>
                 </SheetContent>
                 </Sheet>
