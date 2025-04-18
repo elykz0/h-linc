@@ -296,6 +296,36 @@ const Branches = () => {
                 </Sheet>
                 </div>
             </div>
+            <div className="flex flex-col xl:items-left xl:flex-row items-center gap-20 pb-20 drop-shadow-2xl">
+                {/* Regional valley HS */}
+                <div className="box-border h-80 w-80 flex flex-col pb-10 bg-gray-200 hover:drop-shadow-2xl" data-aos="fade-up">
+                <Sheet>
+                <SheetTrigger>
+                <Image 
+                  src="/assets/cardozo.png"
+                  alt="regionalValleyPic"
+                  width={320}
+                  height={100}
+                   />
+                Regional Valley High School
+                </SheetTrigger>
+                <SheetContent className="w-full pt-20">
+                  <SheetTitle className="text-center text-2xl pb-10">Benjamin N. Cardozo High School </SheetTitle>
+                    <div className="object-cover">
+                    <Image 
+                      src="/assets/blackProfile.png"
+                      alt="regionalValleyPic"
+                      width={320}
+                      height={100}
+                      />
+                    </div>
+                  <SheetDescription className="flex flex-col justify-center items-center gap-8 pt-10">
+                      Description
+                  </SheetDescription>
+                </SheetContent>
+                </Sheet>
+                </div>
+            </div>
           </div> 
       </div>
     </div>

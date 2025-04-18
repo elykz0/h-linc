@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import Social from "@/components/Social";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -77,6 +78,24 @@ export default function Home() {
           height={400}
           className="pt-10 " 
           />
+        </div>
+         {/* Google Form Limited Time */}
+         <div className= "pt-10 text-center text-3xl font-semibold">
+            Hlinc Program 
+        </div>
+        <div className="pt-10 font-light text-xl">
+        During club hours, organization members will help you pursue a project, which is a choice between a passion project, group project, or research paper. If you are remote or there is not a club in your area, we will reach out to professors to guide you through your project/paper.
+        </div>
+        {/* Sign up Button */}
+        <div className="items-center pl-48 xl:pl-96 pt-10">
+           <div className="w-52 xl:w-96 h-16 border border-blue-400 rounded-full flex justify-center 
+              items-center text-primary text-base hover:bg-white hover:text-primary 
+              hover:translation-all duration-500">
+                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfKiHsVHEjiBZBJrANiT0ynQsggGRlMfVB-3Amo9B5xCdngoQ/viewform"
+                className = "font-semibold text-xl">
+                Sign up Now!</Link>
+
+        </div>
         </div>
 
       </div>
