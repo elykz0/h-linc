@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { motion } from "framer-motion";
 
 const links = [
     {
@@ -28,12 +29,30 @@ const Nav = () => {
         <nav className="flex gap-8">
             {links.map((link, index)=> {
             return ( 
-                <Link href= {link.path} 
-                key={index} 
-                className={'${link.path === pathname && "text-black hover:border-b-2 border-accent"} capitalize font-medium hover:text-slate-400 hover:underline transition-all'}
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: -20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: index * 0.1, duration: 0.5 }}
                 >
-                {link.name}
-                </Link>
+                  <Link 
+                    href={link.path} 
+                    className={`relative capitalize font-medium transition-all duration-300 hover:text-teal-600 ${
+                      link.path === pathname ? "text-teal-600" : "text-slate-700"
+                    }`}
+                  >
+                    {link.name}
+                    {link.path === pathname && (
+                      <motion.div
+                        className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-teal-400 to-blue-500"
+                        layoutId="activeTab"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 0.3 }}
+                      />
+                    )}
+                  </Link>
+                </motion.div>
             );
         })}
         </nav>
