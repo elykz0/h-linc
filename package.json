@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "wrangler pages deploy out"
+    "deploy": "npm run build && wrangler pages deploy out"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.1",
